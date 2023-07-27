@@ -4,3 +4,4 @@ declare module '*.vue' {
     export default Vue;
  }
 declare module 'vuex'
+declare module 'vue3-video-play'

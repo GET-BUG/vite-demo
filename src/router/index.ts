@@ -4,11 +4,11 @@ export default createRouter({
     history: createWebHistory(),
     routes: [
         {
-            path: '/',
+            path: '/home',
             component: ()=> import('../views/home/index.vue')
         },
         {
-            path: '/my',
+            path: '/',
             component:()=> import('../views/my/index.vue')
         }
     ]
