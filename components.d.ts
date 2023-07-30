@@ -9,17 +9,14 @@ declare module 'vue' {
   export interface GlobalComponents {
     ElButton: typeof import('element-plus/es')['ElButton']
     ElCard: typeof import('element-plus/es')['ElCard']
-    ElCol: typeof import('element-plus/es')['ElCol']
     ElCollapse: typeof import('element-plus/es')['ElCollapse']
     ElCollapseItem: typeof import('element-plus/es')['ElCollapseItem']
-    ElIcon: typeof import('element-plus/es')['ElIcon']
-    ElRow: typeof import('element-plus/es')['ElRow']
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
-    MyBlog: typeof import('./src/components/MyBlog.vue')['default']
+    ElMenu: typeof import('element-plus/es')['ElMenu']
+    ElMenuItem: typeof import('element-plus/es')['ElMenuItem']
+    Head: typeof import('./src/components/Head.vue')['default']
     MyVideo: typeof import('./src/components/MyVideo.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TestPaper: typeof import('./src/components/TestPaper.vue')['default']
-    Video: typeof import('./src/components/Video.vue')['default']
   }
 }
